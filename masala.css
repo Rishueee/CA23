@@ -1,0 +1,196 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* CSS CODE FOR HTML */
+#header {
+  background-image: url(https://www.shutterstock.com/image-photo/black-stone-cooking-background-spices-600nw-1914852676.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 30vh;
+  border: 1px solid black;
+
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+h1 {
+  position: relative;
+  left: 5vh;
+  bottom: 8vh;
+  color: red;
+  font-family: McLaren;
+  font-size: 9vh;
+}
+
+#about {
+  position: relative;
+  left: 5vh;
+  bottom: 14vh;
+  font-family: Freckle Face;
+  color: white;
+  font-size: 25px;
+}
+
+#search-bar {
+  padding: 1vh;
+  border: 0px;
+  outline: none;
+  font-family: Mclaren;
+}
+
+#search-bar:hover {
+  background-color: burlywood;
+}
+
+#meals {
+  width: 65vh;
+  height: 15vw;
+  margin-left: 3vh;
+}
+
+#random-meall {
+  position: relative;
+  left: 147vh;
+  width: max-content;
+  bottom: 90px;
+  font-family: cursive;
+}
+img {
+  border: 1px solid black;
+  max-width: 100%;
+  height: auto;
+  width: max-content;
+}
+#search-results {
+  display: none;
+}
+
+#searchedfood {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-gap: 130px;
+  position: relative;
+  top: 65vh;
+}
+
+/* JAVASCRIPT CSS */
+h2 {
+  font-family: Mclaren;
+  font-weight: 500;
+}
+h6 {
+  font-family: cursive;
+  font-size: 15px;
+  position: relative;
+  bottom: 19px;
+}
+button {
+  position: relative;
+  left: 69.75vh;
+  bottom: 17vh;
+  padding: 1vh;
+  border: 1px solid black;
+}
+.rish {
+  position: relative;
+  left: 900px;
+  bottom: 80vh;
+  border: 1px solid black;
+  font-family: sans-serif;
+  font-weight: 5;
+}
+
+#hhh {
+  font-family: exo 2;
+  font-size: 6vh;
+  white-space: nowrap;
+}
+.img {
+  border-radius: 20px;
+  margin-left: 2vw;
+}
+#pp {
+  font-size: 3vh;
+  font-family: McLaren;
+  color: black;
+  position: relative;
+  top: 1vh;
+  left: 1vw;
+}
+
+@media (min-width: 150px) and (max-width: 600px) {
+
+    /* HTML CSS MEDIA QUERY */
+  #header {
+    height: 20vh;
+  }
+  h1 {
+    font-size: 5vh;
+    margin-right: 11vw;
+  }
+  #about {
+    font-size: 2.5vh;
+    margin-top: 7vh;
+    margin-right: 12vw;
+  }
+  #search-bar {
+    position: relative;
+    bottom: 70px;
+    font-size: 2vh;
+  }
+
+  #meals {
+    font-size: 2.5vh;
+    margin: 0;
+    width: 50vw;
+  }
+
+  #meals {
+    width: 100%;
+    height: 30vw;
+    margin: 0 auto;
+  }
+  #searchedfood {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    position: relative;
+    top: 50vh;
+  }
+  #random-meall {
+    position: relative;
+    margin-left: -113vh;
+    width: max-content;
+    bottom: 70px;
+    font-size: 1.5vh;
+  }
+
+  /* JAVASCRIPT MEDIA QUERY */
+
+  h2 {
+    font-size: 2vh;
+  }
+
+  .random {
+    height: 30vh;
+  }
+  h6 {
+    font-size: 2vh;
+  }
+  .rish {
+    position: relative;
+    left: 50%;
+    transform: translateX(50%);
+    bottom: 48vh;
+    font-size: 8px;
+  }
+  #hhh {
+    font-size: 3vh;
+    position: relative;
+    margin-top: 10vh;
+  }
+}
